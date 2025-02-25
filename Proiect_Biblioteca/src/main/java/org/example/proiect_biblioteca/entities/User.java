@@ -6,7 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Column;
 
-@Entity
+@Entity(name="library_users")
 public class User {
 
     @Id
